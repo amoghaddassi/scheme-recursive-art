@@ -15,9 +15,9 @@ The __str__ method of a Scheme value will return a Scheme expression that
 would be read to the value, where possible.
 """
 
-from ucb import main, trace, interact
-from scheme_tokens import tokenize_lines, DELIMITERS
-from buffer import Buffer, InputReader, LineReader
+from modules.ucb import main
+from modules.scheme_tokens import tokenize_lines, DELIMITERS
+from modules.buffer import Buffer, InputReader, LineReader
 
 # Pairs and Scheme lists
 

@@ -11,7 +11,7 @@ This file also includes some features of Scheme that have not been addressed
 in the course, such as Scheme strings.
 """
 
-from ucb import main
+from modules.ucb import main
 import itertools
 import string
 import sys

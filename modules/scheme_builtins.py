@@ -3,7 +3,7 @@
 import math
 import operator
 import sys
-from scheme_reader import Pair, nil, repl_str
+from modules.scheme_reader import Pair, nil, repl_str
 
 try:
     import turtle

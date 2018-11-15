@@ -1,8 +1,9 @@
 """A Scheme interpreter and its read-eval-print loop."""
 
-from scheme_builtins import *
-from scheme_reader import *
-from ucb import main, trace
+from modules.scheme_builtins import *
+from modules.scheme_reader import *
+from modules.ucb import main
+
 
 ##############
 # Eval/Apply #
